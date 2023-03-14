@@ -126,12 +126,18 @@ input{
     font-size: clamp(12px, 2vw, 18px);
     color: red;
 }
+.butt{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: .1em;
+}
 .btn{
     padding: 7px 10px 7px 10px;
     border-radius: 5px;
-    width: 30%;
     border: 1px solid rgb(68, 68, 68);
     margin-top: 10px;
+    width: 15em;
 }
 .btn:hover{
     scale: 1.2;
